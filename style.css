@@ -1,0 +1,104 @@
+body {
+  background-color: #f4f4f4;
+}
+body main {
+  margin: 0 auto;
+  width: 75%;
+  border: 2px solid #ff0;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.galleri {
+  background-color: #ff0;
+  position: relative;
+}
+.galleri #img-holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.button {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #0a0a0a;
+  color: #ff0;
+}
+.button.error {
+  background-color: red;
+}
+.button.approved {
+  background-color: #0f0;
+}
+
+.fontsize-12px {
+  font-size: 12px;
+}
+
+.fontsize-24px {
+  font-size: 24px;
+}
+
+.fontsize-32px {
+  font-size: 32px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+head {
+  background-color: #f00;
+}/*# sourceMappingURL=style.css.map */

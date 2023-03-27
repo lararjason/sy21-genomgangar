@@ -1,0 +1,53 @@
+body {
+    background-color: $white;
+    main {
+        margin: 0 auto;
+        width: 75%;
+        border: 2px solid $primaryColor;
+    }
+}
+
+.popup{
+    @include center-center;
+}
+
+.galleri {
+    background-color: $primaryColor;
+    position: relative;
+    #img-holder {
+       @include center-center;
+    }
+}
+
+.button {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: $black;
+    color: $primaryColor;
+    &.error {
+        background-color: red;
+    }
+    &.approved {
+        background-color: #0f0;
+    }
+}
+
+
+$sizes: 12px, 24px, 32px;
+
+@each $size in $sizes {
+  .fontsize-#{$size} {
+    font-size: $size;
+  }
+}
+
+
+$base-color: #036;
+$columns: 12;
+
+@for $i from 1 through $columns {
+    .col-#{$i} {
+        width: (100% / $columns) * $i;
+    }
+  }
